@@ -3,38 +3,13 @@
   "productName": "dataset.tools",
   "version": "1.0.0",
   "description": "A desktop dataset manager for data.world built with electron",
-  "main": "index.js",
+  "main": "",
   "author": {
     "name": "PhiDataKappa",
     "url": "https://github.com/PhiDataKappa"
   },
-  "scripts": {
-    "postinstall": "npm rebuild --runtime=electron --target=1.6.6 --disturl=https://atom.io/download/atom-shell --build-from-source"
-  },
+  "scripts": {},
   "license": "MIT",
   "dependencies": {
-    "ascii85": "^1.0.2",
-    "axios": "^0.17.1",
-    "base64url": "^2.0.0",
-    "browser-window": "^0.4.0",
-    "cookie-parser": "^1.4.3",
-    "cookieparser": "^0.1.0",
-    "csvtojson": "^1.1.9",
-    "dotenv": "^4.0.0",
-    "electron": "^1.7.9",
-    "flexbox-react": "^4.4.0",
-    "font-awesome": "^4.7.0",
-    "grommet": "^2.0.0-alpha.5",
-    "history": "^4.7.2",
-    "jquery": "^3.2.1",
-    "material-ui": "^0.20.0",
-    "menubar": "^5.2.3",
-    "nodemon": "^1.12.5",
-  },
-
-  "devEngines": {
-    "node": ">=7.x",
-    "npm": ">=4.x",
-    "yarn": ">=0.21.3"
   }
 }
