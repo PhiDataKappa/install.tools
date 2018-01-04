@@ -1,115 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>dataset.tools</title>
-  <meta name="description" content="A desktop CSV editor for data publishers">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="css/gumby.css">
-  <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-
-  <script src="js/libs/modernizr-2.6.2.min.js"></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.2.5/svg.min.js'></script>
-  <script charset="utf-8">require('./index')</script>
-
-  <link rel="canonical" href="/">
-</head>
+    <meta charset="utf-8">
+    <title>dataset.tools</title>
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500,400,300,200,100" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  </head>
 
   <body>
-    <div class="page-content">
-      <div class="wrapper">
-        	<!-- START: Site Header -->
-    	<header role="banner" class="site-header parallax" gumby-parallax="0.5">
-    		<div class="row">
-    			<!-- START: Intro -->
-    			<div class="twelve columns header-intro-wrap fadeUpIn">
-    				<h1 class="logo">dataset.tools</h1>
-    				<p>A desktop dataset manager</p>
-    				<form action="" class="header-signup">
-              <a href="#download" class="btn-side btn-join">Download</a>
-              <a href="https://github.com/theodi/comma-chameleon" class="btn-side btn-docs btn-grow">
-                <i class="fa fa-github"></i>
-                Source Code
-              </a>
+    <canvas class="container" id="container" role="main"></canvas>
 
-    				</form>
-    				<div class="catch-errors-top"></div>
-    			</div>
-    			<!-- /END: Intro -->
-    		</div>
-    	</header>
-    	<!-- /END: Site Header -->
-
-<main role="main" class="site-main-content">
-        <!-- START: Features Section -->
-
-  <section id="features" class="site-section section-testimonials">
-    <div class="row feature">
-			<div class="featureimg">
-				<img src="img/screenshot1.png" alt="" class="screenshot" />
-			</div>
-			<h2>Simple interface</h2>
-			<p>
-				dataset.tools is a desktop file manager
-			</p>
-		</div>
-		<div class="row feature">
-			<div class="featureimg">
-				<img src="img/screenshot2.png" alt="" class="screenshot" />
-			</div>
-			<h2>Data validation</h2>
-			<p>
-				Not sure your data is ready for prime time? You can validate your CSV on the fly using <a href="http://csvlint.io/">CSVlint</a>, so you can be sure your data is reuse ready before you publish it!
-			</p>
-		</div>
-    <div class="row feature">
-			<div class="featureimg">
-				<img src="img/datapackage.png" alt="" class="screenshot" />
-			</div>
-        <h2>Export your changes back to data.world</h2>
-        <p>Once you've finished editing your dataset, dataset.tools lets you sync your changes with your data.world profile!</p>
+    <div class="atom">
+      <div class="electron"></div>
+      <div class="electron"></div>
+      <div class="electron"></div>
     </div>
-		<div class="row feature">
-			<div class="featureimg">
-				<img src="img/github.png" alt="" class="screenshot" />
-			</div>
-				<h2>Publish on Github</h2>
-				<p>Want to edit your CSV quickly and easily? Download dataset.tools along with the companion tool: dataset.chrome and clean away!!</p>
-					<p><a href="http://githum.com/PhiDataKappa">Check out our github webpage here</a>.</p>
-		</div>
-  </section>
 
-  <!-- /END: Features Section -->
-</main>
-
-</div>
-</div>
-
-    <!-- START: Site Footer -->
-<footer role="contentinfo" class="site-footer">
-  <div class="row footer-info">
-    <!-- START: Copyright Notice -->
-    <div class="six columns">
-      <p class="footer-copyright">Header photo <a href="https://www.flickr.com/photos/24592211@N05/15925665874/in/photolist-qgicC7-ymFP-qoaSsc-3f4W-bdF7ZD-ayCym5-c1chXG-2A5wdh-4ECM3n-jM1ai-dZKxm-abDzjC-8jEq7j-KrvuK-6kSUpx-xXyVGb-kzFh3-nPeVR-cs9Smu-cdEV9C-q6VQ6Z-q6Msi7-KPLe1-dhewL2-eTSCFG-qaRoxQ-ejHvYZ-qm4Myy-eEAtEU-oTrYTx-noQbYS-o5frcn-tzvS6-dp7bBD-dp7igd-qAjb1g-5VRV9K-84CDS4-3key1o-CUUnjm-aoY3Dw-38VzF5-38R28i-aDfXWu-72DCfA-9ECJb9-dfejEU-pro5jN-rLW6M-prmJUY">borrowed from data.world</a>.</p>
-      <div class="footer-copyright" id='odi-logo'>An experiment by: Ben, Caleb, Josh & Noble <br /></div>
+    <div class="content">
+      <h1 class="title">dataset.tools</h1>
+      <p class="desc">a data.world utility</p>
+      <ul class="contact">
+        <li><a href="#">contact</a></li>
+        <li><a target="_top" href="#">dataset.tools</a></li>
+        <li><a target="_top" href="#">dataset.chrome</a></li>
+        <li><a target="_top" href="">Github</a></li>
+      </ul>
     </div>
-    <div class="six columns">
-      <p class="footer-copyright">HTML, CSS, images, and design are based on a design <a href="https://github.com/PhiDataKappa/dataset.tools">built to share</a> which can be reused here under the MIT License.</p>
 
-      <p class="footer-copyright"><img src="img/icon.jpg" class="comma-chameleon" alt="" /></p>
+    <div class="blur blurTop">
+      <canvas class="canvas" id="blurCanvasTop"></canvas>
     </div>
-    <!-- /END: Copyright Notice -->
-  </div>
-</footer>
-<!-- /END: Site Footer -->
+    <div class="blur blurBottom">
+      <canvas width="1000px" height="1000px" class="canvas" id="blurCanvasBottom"></canvas>
+    </div>
 
-
+    <script src="index.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" charset="utf-8"></script>
+    <script src="https://dnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js" charset="utf-8"></script>
   </body>
-
 </html>

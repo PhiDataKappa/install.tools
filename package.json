@@ -8,8 +8,11 @@
     "name": "PhiDataKappa",
     "url": "https://github.com/PhiDataKappa"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "live-server"
+  },
   "license": "MIT",
   "dependencies": {
+    "jquery": "^2.2.1"
   }
 }
